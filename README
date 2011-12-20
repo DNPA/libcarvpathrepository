@@ -1,0 +1,9 @@
+This simple library is meant as glue between the OCFA framework and
+the CarvFS filesystem. It allows for the creation and usage of growing
+sparse archives that map to a CarvFS mount.
+
+The current version works wit a single CarvFS mountpoint. 
+Future versions may work with a number of mountpoints that is correlated 
+to the number of CPU's in the system, as to make sure the single CarvFS
+process does not become a botlenech for OCFA.
+

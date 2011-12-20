@@ -1,0 +1,10 @@
+The LibCarvPathRepository lib has no build time dependencies.
+To build the library run:
+
+  make
+
+To install the library use the following command:
+
+  sudo make install
+
+
