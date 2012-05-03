@@ -3,6 +3,9 @@
 #include <boost/tokenizer.hpp>
 #include <strings.h>
 #include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
 
        CarvPathRepositoryImpl::CarvPathRepositoryImpl(std::string archiveroot):mCarvFsRoot(""){
          std::string datadir=archiveroot + "/data";
